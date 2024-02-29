@@ -1,0 +1,31 @@
+{
+    "name": "OS \"Kosmo 2\"",
+    "short_name": "OS \"Kosmo 2\"",
+    "description": "Не настоящая фановая операционная система \"Kosmo 2\"",
+    "start_url": "https://dden4ik-12.github.io/OS-Kosmo-2/",
+    "icons": [
+        {
+            "src": "https://dden4ik-12.github.io/OS-Kosmo-2/assets/favicons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "https://dden4ik-12.github.io/OS-Kosmo-2/assets/favicons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "https://dden4ik-12.github.io/OS-Kosmo-2/assets/favicons/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "https://dden4ik-12.github.io/OS-Kosmo-2/assets/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone"
+}
