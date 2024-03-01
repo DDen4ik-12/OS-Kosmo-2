@@ -9,5 +9,84 @@
     <script src="https://dden4ik-12.github.io/OS-Kosmo-2/JSZip/jszip.min.js"></script>
   </head>
   <body>
+    <app-container style="
+      display: block;
+      position: absolute;
+      transform: translate(10px, 10px);
+    ">
+      <window-container active="true" style="
+        display: block;
+        width: 750px;
+        height: 500px;
+        background: linear-gradient(135deg, #c900ff, #7b00ff 100%);
+        border-radius: 6px;
+        border: solid 1px #6000c7;
+      ">
+        <window-header style="
+          display: flex;
+          width: calc(100% - 6px);
+          height: 30px;
+          padding-inline: 3px;
+          align-items: center;
+          justify-content: space-between;
+        ">
+          <header-group style="
+            display: flex;
+            align-items: center;
+          " class="title">
+            <img style="
+              margin-inline: 3px;
+              width: 24px;
+              height: 24px;
+            " src="https://dden4ik-12.github.io/OS-Kosmo-2/assets/favicons/apple-touch-icon.png">
+            <header-title style="
+              color: white;
+              margin-left: 3px;
+            ">Kosmo Login</header-title>
+          </header-group>
+          <header-group style="
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+          " class="buttons">
+            <header-button class="close" style="
+              display: flex;
+              margin-right: 3px;
+              background: #ff008d;
+              width: 32px;
+              height: 18px;
+              border-radius: 100px;
+              border: solid 1px #a9005d;
+            "></header-button>
+            <header-button class="small-window" style="
+              display: flex;
+              margin-right: 3px;
+              background: #007eff;
+              width: 32px;
+              height: 18px;
+              border-radius: 100px;
+              border: solid 1px #006ca9;
+            "></header-button>
+            <header-button class="collapse" style="
+              display: flex;
+              margin-right: 3px;
+              background: #007eff;
+              width: 32px;
+              height: 18px;
+              border-radius: 100px;
+              border: solid 1px #006ca9;
+            "></header-button>
+          </header-group>
+        </window-header>
+        <background style="
+          display: block;
+          background: white;
+          width: calc(100% - 6px);
+          height: calc(100% - 30px - 3px);
+          margin: 3px;
+          margin-top: 0;
+        "></background>
+      </window-container>
+    </app-container>
   </body>
 </html>
